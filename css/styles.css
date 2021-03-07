@@ -5,6 +5,8 @@
   --secondary-font: "Raleway", sans-serif;
   --btm-color: #2196f3;
   --main-color: #212121;
+  --features-margtop: 10px;
+  --features-margleft: 30px;
 }
 
 .link {
@@ -179,6 +181,23 @@ p {
 /* ===============END HERO==============*/
 
 /* ===============FEATURES==============*/
+
+.features-list {
+  margin: 0px;
+  padding-left: 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: calc (-1 * var(--features-margtop));
+  margin-left: calc (-1 * var(--features-margleft));
+}
+
+.features-item {
+  flex-basis: calc ((100%-90px) /4;
+  margin-right: 30px;
+}
+
 .features-title {
   font-weight: bold;
   font-size: 14px;
