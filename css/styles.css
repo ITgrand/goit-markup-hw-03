@@ -140,6 +140,9 @@ p {
 /* ===============END HEADER==============*/
 
 /* ===============HERO==============*/
+.hero {
+  margin-bottom: 94px;
+}
 
 .hero-area {
   background-color: #2f303a;
@@ -182,20 +185,23 @@ p {
 
 /* ===============FEATURES==============*/
 
+.features-area {
+  margin-bottom: 94px;
+}
+
 .features-list {
   margin: 0px;
   padding-left: 0px;
 
   display: flex;
-  flex-wrap: wrap;
-
-  margin-top: calc (-1 * var(--features-margtop));
-  margin-left: calc (-1 * var(--features-margleft));
+  margin-top: (-1 * var(--features-margtop));
+  margin-left: (-1 * var(--features-margleft));
 }
 
 .features-item {
-  flex-basis: calc ((100%-90px) /4;
-  margin-right: 30px;
+  flex-basis: calc(100%-90px) / 4;
+  margin-top: var(--features-margtop);
+  margin-left: var(--features-margleft);
 }
 
 .features-title {
@@ -213,6 +219,21 @@ p {
 }
 /* ===============END FEATURES==============*/
 /* ===============ABOUT==============*/
+.about-area {
+  text-align: center;
+}
+
+.about-list {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 94px;
+  padding-left: 0px;
+}
+
+.about-img:not(:last-child) {
+  padding-right: 30px;
+}
+
 .title {
   font-weight: bold;
   font-size: 36px;
@@ -221,6 +242,9 @@ p {
 }
 /* ===============END ABOUT==============*/
 /* ===============TEAM==============*/
+.team {
+}
+
 .team-developer {
   font-weight: 500;
   font-size: 16px;
