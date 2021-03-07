@@ -1,3 +1,5 @@
+/* ===============UTILITES==============*/
+
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -22,21 +24,78 @@ body {
   color: var(--main-color);
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* ===============END UTILITES==============*/
+
 /* ===============HEADER==============*/
+.header-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(236, 236, 236, 236);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation-title {
+  margin-right: 93px;
+}
+
 .web {
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-.navigation-studio {
+
+.studio {
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
 }
+
+.navigation-list {
+  margin: 0;
+  display: flex;
+  padding-left: 0;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .navigation-link {
   font-weight: 500;
   font-size: 14px;
@@ -47,17 +106,29 @@ body {
 .navigation-link:focus {
   color: var(--btm-color);
 }
+
 .mail-link {
+  margin-right: 50px;
+  margin-left: auto;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .mail-link:hover,
 .mail-link:focus {
   color: var(--btm-color);
 }
+
 .tel-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
