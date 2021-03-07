@@ -295,28 +295,51 @@ p {
 }
 /* ===============END TEAM==============*/
 /* ===============FOOTER==============*/
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-title-container {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
 .footer-studio {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address {
+  padding: 0px;
+  display: block;
+  margin: 0px;
+}
 
-  /*color: #ffffff;*/
+.add-container {
+  padding-bottom: 60px;
+}
+.address-list {
+  margin: 0px;
+  padding: 0px;
 }
 .address-link {
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
-
-  /*color: #ffffff;*/
+  color: #ffffff;
+}
+.add-list-link:not(:first-child) {
+  margin-top: 9px;
 }
 .address-mail-tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* ===============PORTFOLIO==============*/
