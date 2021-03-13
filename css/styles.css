@@ -46,6 +46,10 @@ p {
 /* ===============END UTILITES==============*/
 
 /* ===============HEADER==============*/
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -380,6 +384,7 @@ p {
 /* ===============END BUTTONS==============*/
 
 /* ===============CATEGORY==============*/
+
 .category-list {
   margin-top: 20px;
   margin-bottom: 94px;
@@ -397,8 +402,6 @@ p {
 
   margin-top: 30px;
 }
-/*.category-container {
-}*/
 
 .category-title {
   margin-top: 20px;
