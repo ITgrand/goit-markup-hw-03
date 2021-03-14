@@ -43,6 +43,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 /* ===============END UTILITES==============*/
 
 /* ===============HEADER==============*/
@@ -396,16 +400,24 @@ p {
 }
 
 .category-items {
-  flex-basis: calc((100%-30px) / 3);
+  flex-basis: calc((100% -90px) / 3);
 
   background: #ffffff;
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
+
+  margin-bottom: 30px;
+}
+
+.category-container {
+
+  border: 1px solid #eeeeee;
+  border-top: none;
+  max-width: 370px;
 }
 
 .category-title {
-  margin-top: 20px;
   padding-left: 24px;
+  padding-top: 20px;
 
   font-weight: bold;
   font-size: 18px;
